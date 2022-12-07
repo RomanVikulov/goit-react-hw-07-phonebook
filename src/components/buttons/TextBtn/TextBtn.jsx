@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TextBtn from './TextBtn.styled';
+import TextBtn from './TextBtn.styled'; //
 
 const TextButton = ({ text, type, onClick, ...allyProps }) => (
   <TextBtn type={type} onClick={onClick} {...allyProps}>
