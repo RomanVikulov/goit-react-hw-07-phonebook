@@ -1,14 +1,6 @@
 import { createSlice, isAnyOf } from '@reduxjs/toolkit';
 import { fetchContacts, addContact, deleteContact } from './operations';
 
-// const handlePending = state => {
-//   state.isLoading = true;
-// };
-// const handleRejected = (state, action) => {
-//   state.isLoading = false;
-//   state.error = action.payload;
-// };
-
 const handleFetchContacts = (state, action) => {
   state.items = action.payload;
 };
