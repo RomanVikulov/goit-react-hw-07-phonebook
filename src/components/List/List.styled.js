@@ -1,7 +1,6 @@
-import styled from 'styled-components';
-
-const List = styled.ul`
-  padding-left: 35px;
-`;
-
 export { List };
+const Notify = styled.p`
+  margin-bottom: 15px;
+  font-weight: 500;
+`;
+export { List, Notify };
